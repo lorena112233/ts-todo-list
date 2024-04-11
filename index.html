@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="./dest/main.css">
+        <script src="dest/index.js" defer>
+
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="header">
+                <h1>TS To-Do List</h1>   
+                <button class="todo-delete-all" title="Delete all tasks">Clear List</button>
+            </div>
+            <div class="row">
+                <span class="badge">Typescript</span>
+                <span class="badge">HTML</span>
+                <span class="badge">CSS</span>
+                <span class="badge">Localstorage</span>
+            </div>
+
+            <div class="body">
+                <form class="todo-form">
+                    <input type="text" class="todo-input"
+                    autofocus
+                    required
+                    placeholder="New task..."
+                    maxlength="30">
+                    <button type="submit">Add</button>
+                </form>
+                <div class="todo-list-container">
+                    <ul class="todo-list">
+                    </ul>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
